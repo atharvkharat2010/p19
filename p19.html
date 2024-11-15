@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculater Example.</title>
+    </head>
+    <body>
+
+        <h1 style="text-align: center;">Calculator</h1>
+        <p>By operating on 20 and 2</p><br>
+        <p id="add"></p>
+        <p id="sub"></p>
+        <p id="mul"></p>
+        <p id="div"></p>
+
+        <script>
+            var num1=20; var num2=2;
+
+
+            var add=num1+num2;
+            document.getElementById("add").innerHTML=" answer =" +add;
+            var sub=num1-num2;
+            document.getElementById("sub").innerHTML=" answer =" +sub;
+            var mul=num1*num2;
+            document.getElementById("mul").innerHTML=" answer =" +mul;
+            var div=num1/num2;
+            document.getElementById("div").innerHTML=" answer =" +div;
+
+        </script>
+    </body>
+</html>
